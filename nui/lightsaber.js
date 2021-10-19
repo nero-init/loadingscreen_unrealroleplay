@@ -90,7 +90,7 @@ function reset(){
 	bufferhead.style.width = "0px";
 	timer.innerHTML = "0:00";
 	music.innerHTML = "";
-	currentSong = 0; // set to first song, to stay on last song: currentSong = playlist.length - 1;
+	currentSong = 0; // 
 	song.innerHTML = playlist[currentSong]['song'];
 	song.title = playlist[currentSong]['song'];
 	album.innerHTML = playlist[currentSong]['album'];
